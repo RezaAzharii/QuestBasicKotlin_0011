@@ -56,6 +56,10 @@ fun ContohSet(){
     //Menambahkan data ke dalam Set Mutable
     shape.add("Persegi Panjang")
     println(shape)
+
+    //Menghapus data dari Set Mutable
+    shape.remove("Lingkaran")
+    println(shape)
 }
 
 fun main(){
