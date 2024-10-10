@@ -52,6 +52,10 @@ fun ContohSet(){
     //Set Mutable
     val shape: MutableSet<String> = mutableSetOf("Lingkaran", "Persegi", "Segitiga")
     println(shape)
+
+    //Menambahkan data ke dalam Set Mutable
+    shape.add("Persegi Panjang")
+    println(shape)
 }
 
 fun main(){
