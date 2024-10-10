@@ -8,7 +8,7 @@ import android.graphics.drawable.shapes.Shape
 //List Read-Only menggunakan listof
 //List Mutable menggunakan mutablelistof
 
-fun main(){
+ fun ContohList(){
     println("=== List ===")
     //List Read-Only
     val readOnlyAbjad = listOf("A", "B", "C")
@@ -33,4 +33,16 @@ fun main(){
     //List Read-Only
     val shapesLocked: List<String> = shape
     println(shapesLocked)
+}
+
+//Set adalah Kumpulan data yang tidak memiliki posisi atau urutan tertentu dan hanya menyimpan data unik(tidak ada duplikasi/Tidak sama)
+//Set bersifat unordered, artinya data yang dimasukan tidak memiliki posisi tertentu
+//Set bersifat mutable dan read only, artinya data yang dimasukan dapat diubah dan tidak dapat diubah
+//Set Read-Only menggunakan setOf
+//Set Mutable menggunakan mutableSetOf
+
+
+
+fun main(){
+    ContohList()
 }
