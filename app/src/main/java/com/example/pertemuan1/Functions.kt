@@ -19,9 +19,15 @@ fun withNamedArgument(name: String, age: Int){
     println("Hello, $name! You are $age years old.")
 }
 
+fun withDefaultArgument(name: String = "Wahyu", age: Int){
+    println()
+    println("== withDefaultParameter ==")
+    println("Hello, $name! You are $age years old.")
+}
 
 fun main(){
     withoutParameter()
     withParameter("Bob")
     withNamedArgument(name = "Bob", age = 30)
+    withDefaultArgument(age = 25)
 }
