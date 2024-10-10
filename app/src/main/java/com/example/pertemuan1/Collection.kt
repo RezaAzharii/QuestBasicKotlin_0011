@@ -1,5 +1,7 @@
 package com.example.pertemuan1
 
+import android.graphics.drawable.shapes.Shape
+
 //List adalah Kumpulan data yang disusun secara berurutan dari
 //List bersifat ordered, artinya data yang dimasukan akan memiliki posisi sesuai urutan
 //List bersifat mutable dan read only, artinya data yang dimasukan dapat diubah dan tidak dapat diubah
@@ -18,5 +20,9 @@ fun main(){
 
     //Menambahkan data ke dalam list Mutable
     shape.add("Lingkaran")
+    println(shape)
+
+    //Menghapus data daru List Mutable
+    shape.remove("Segitiga")
     println(shape)
 }
