@@ -25,9 +25,14 @@ fun withDefaultArgument(name: String = "Wahyu", age: Int){
     println("Hello, $name! You are $age years old.")
 }
 
+fun withReturn(panjang: Int, lebar : Int) : Int{
+    return panjang * lebar
+}
+
 fun main(){
     withoutParameter()
     withParameter("Bob")
     withNamedArgument(name = "Bob", age = 30)
     withDefaultArgument(age = 25)
+    println(withReturn(panjang = 6, lebar = 2))
 }
