@@ -91,7 +91,7 @@ fun ContohMap(){
     shape.remove("Lingkaran")
     println(shape)
 
-    //Menambahkan data di dalam map Mutable
+    //Mengubahkan data di dalam map Mutable
     shape["Persegi"] = 5
     println(shape)
 }
