@@ -86,6 +86,10 @@ fun ContohMap(){
     //Menambahkan data ke dalam Map Mutable
     shape["Persegi Panjang"] = 4
     println(shape)
+
+    //Menghapus data dari Map Mutable
+    shape.remove("Lingkaran")
+    println(shape)
 }
 
 
