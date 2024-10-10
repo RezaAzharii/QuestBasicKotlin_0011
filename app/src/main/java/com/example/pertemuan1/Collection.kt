@@ -25,4 +25,8 @@ fun main(){
     //Menghapus data daru List Mutable
     shape.remove("Segitiga")
     println(shape)
+
+    //Mengubah data di dalam List Mutable
+    shape[0] = "Oval"
+    println(shape)
 }
