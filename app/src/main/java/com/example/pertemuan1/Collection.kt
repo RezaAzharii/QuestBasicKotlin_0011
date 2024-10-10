@@ -11,4 +11,8 @@ fun main(){
     //List Read-Only
     val readOnlyAbjad = listOf("A", "B", "C")
     println(readOnlyAbjad)
+
+    //List Mutable
+    val shape: MutableList<String> = mutableListOf("Lingkaran", "Persegi", "Segitiga")
+    println(shape)
 }
