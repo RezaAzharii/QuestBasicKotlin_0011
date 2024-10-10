@@ -41,8 +41,16 @@ import android.graphics.drawable.shapes.Shape
 //Set Read-Only menggunakan setOf
 //Set Mutable menggunakan mutableSetOf
 
+fun ContohSet(){
+    println()
+    println("=== Set ===")
 
+    //Set Read-Only
+    val readOnlyAbjad = setOf("A", "B", "C")
+    println(readOnlyAbjad)
+}
 
 fun main(){
     ContohList()
+    ContohSet()
 }
