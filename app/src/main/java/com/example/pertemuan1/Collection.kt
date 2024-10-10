@@ -78,6 +78,10 @@ fun ContohMap(){
     //Map Read-Only
     val readOnlyShape: Map<String, Int> = mapOf("Lingkaran" to 1, "Persegi" to 2, "Segitiga" to 3)
     println(readOnlyShape)
+
+    //Map Mutable
+    val shape: MutableMap<String, Int> = mutableMapOf("Lingkaran" to 1, "Persegi" to 2, "Segitiga" to 3)
+    println(shape)
 }
 
 
