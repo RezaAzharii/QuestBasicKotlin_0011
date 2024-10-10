@@ -15,4 +15,8 @@ fun main(){
     //List Mutable
     val shape: MutableList<String> = mutableListOf("Lingkaran", "Persegi", "Segitiga")
     println(shape)
+
+    //Menambahkan data ke dalam list Mutable
+    shape.add("Lingkaran")
+    println(shape)
 }
